@@ -7,14 +7,6 @@ val2 = float (num2)
 def suma(val1=0, val2=0):
   return val1 + val2
 
-def resta(val1=0, val2=0):
-  return val1 - val2
-
-def mul(val1=0, val2=0):
-  return val1 * val2
-
-def div(val1=0, val2=0):
-  return val1 / val2
 
 def operacion(funcion, val1=0, val2=0):
   return funcion(val1, val2)
