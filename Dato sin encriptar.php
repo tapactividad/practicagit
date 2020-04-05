@@ -2,6 +2,8 @@
 
 $a = "Dato Importante";
 
-echo "Como podemos ver muestra nuestro dato en forma de texto plano     : ".$a." ";
+$b = md5($a);
+
+echo "Nuestra informacion encriptada se vera asi: ".$b." ";
 
 ?>
