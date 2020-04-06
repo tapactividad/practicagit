@@ -14,8 +14,8 @@
 		fwrite($archivo, $contenido);
 
 	echo "<h2>SECCION DE COMENTARIOS:</h2>";
-	echo "asunto:" . $nombre . "<br/>";
-	echo "Comentario:" . $Apa ."<br/>";
+	echo "asunto:" . htmlspecialchar($nombre) . "<br/>";
+	echo "Comentario:" . htmlspecialchar($Apa) ."<br/>";
 	
  ?>
 
